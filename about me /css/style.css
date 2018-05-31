@@ -1,0 +1,113 @@
+
+
+body{
+	font-family: "Courier New", serif;
+	background: url(../img/texture_bg.png);
+	background-color: #f7f7f7;
+    margin: 0;
+	padding: 0;
+
+}
+
+
+
+#header {
+	height: 8.9vh; 
+	width: 100vw; 
+	background: url(../img/fon.png);
+	padding: 1.6vh 0;
+	box-sizing: border-box;
+}
+
+#footer {
+	height: 8.9vh; 
+	width: 100vw; 
+	background: url(../img/fon.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#info {
+	height: 76vh; 
+	width: 70vw;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#info {
+	border-radius: 80px;
+	background: url(../img/texture_main.png);
+	background-color: #ffffff;
+}
+
+#menu {
+	height: 5.79vh; 
+	line-height: 5.79vh;
+	width: 70vw;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo{
+	height: 100%;
+	
+}
+
+#logo img{
+	height: 10vh;
+	top: -1vh;
+	position: relative;
+}
+
+#menu a{
+	color: #a2ae64;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.9vmax;
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+#menu a:hover{
+	border-bottom: 1px solid #a2ae64;
+    text-shadow: #ffffff 0 0 10px;
+    color: #a2ae64;
+}
+
+ 
+
+ 
+ #iff {
+     
+     text-align: center;
+     color: #a2ae64;
+     font-size: 3vmax;
+	}
+
+#if {
+     text-align: right;
+     color: #a2ae64;
+     padding: 2vh 5vw;
+     font-size: 2vmax;
+}
+
+
+
+#ii {
+	text-align: center;
+     color: #a2ae64;
+     font-size: 1.5vmax;
+
+}
+
+
+

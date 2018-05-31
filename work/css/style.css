@@ -1,0 +1,192 @@
+
+body{
+	font-family: "Courier New", serif;
+	background: url(../img/texture_bg.png);
+	background-color: #f7f7f7;
+    margin: 0;
+	padding: 0;
+    width: 1280px;
+    height: 1440px;
+
+}
+
+
+
+#header {
+	height: 8.9vh; 
+	width: 100vw; 
+	background: url(../img/fon.png);
+	padding: 1.6vh 0;
+	box-sizing: border-box;
+}
+
+#footer {
+	height: 8.9vh; 
+	width: 100vw; 
+	background: url(../img/fon.png);
+    position: absolute;
+    bottom: 0;
+}
+
+#info {
+	height: 70.2vh; 
+	width: 41.2vw;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#info {
+	border-radius: 80px;
+	background: url(../img/texture_main.png);
+	background-color: #ffffff;
+	text-align: -webkit-center;
+}
+
+
+
+#info2 img {
+	height: 70.2vh; 
+	width: 41.2vw;
+	-webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+   text-align: -webkit-center;
+}
+
+#info2 img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+#menu {
+	height: 5.79vh; 
+	line-height: 5.79vh;
+	width: 70vw;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo{
+	height: 100%;
+	
+}
+
+#logo img{
+	height: 12vh;
+	top: -2.1vh;
+	position: relative;
+}
+
+#menu a{
+	color: #a2ae64;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.9vmax;
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+#menu a:hover{
+	border-bottom: 1px solid #a2ae64;
+    text-shadow: #ffffff 0 0 10px;
+    color: #a2ae64;
+}
+
+ 
+
+#info2 {
+	height: 70.2vh; 
+	width: 41.2vw;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#info2 {
+	border-radius: 80px;
+	background: url(../img/texture_main.png);
+	background-color: #ffffff;
+}
+
+#info img {
+	height: 70.2vh; 
+	width: 41.2vw;
+	-webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+
+#info img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+
+
+html { 
+ position:relative; 
+ min-height:100%;
+}
+
+#info3 {
+	height: 70.2vh; 
+	width: 41.2vw;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#info3 {
+	border-radius: 80px;
+	background: url(../img/texture_main.png);
+	background-color: #ffffff;
+}
+
+#info4 {
+	height: 70.2vh; 
+	width: 41.2vw;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#info4 {
+	border-radius: 80px;
+	background: url(../img/texture_main.png);
+	background-color: #ffffff;
+}
